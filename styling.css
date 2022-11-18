@@ -1,32 +1,49 @@
 .siteHeaders{
-    background-color: lightgray;
     color: purple;
-    font-size: 32px
-}
-
-.siteHeader2{
-    background-color: lightgray;
-    color: green;
-    font-size: 24px;
-    padding-left: 30px;
-}
-
-.siteBackground{
-    background-color: lightgray
-}
-
-.siteMainHeader{
-    color: green;
-    font-size: 50px;
-    background-color: white;
+    font-size: 32px;
+    font-family: lucida handwriting;
     text-align: center;
 }
 
+.siteHeader2{
+    color: green;
+    font-size: 24px;
+    font-family: verdana;
+    text-align: center;
+    line-height: 5%
+}
+
 .siteParagraphs{
-    padding-left: 30px
+    font-family: verdana;
+    text-align: center;
+}
+
+.gridContent{
+    padding-left: 30px;
+    font-family: verdana;
 }
 
 .reviews{
-    padding-left: 30px;
     font-style: italic;
+    font-family: verdana;
+    text-align: center;
+}
+
+.siteMainHeader{
+    text-align: center;
+    color: green;
+    font-size: 30px;
+    font-family: lucida handwriting;
+  }
+
+  .grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.hoursOfOperation {
+    font-family: verdana;
+    text-align: center;
+    line-height: 50%;
 }
